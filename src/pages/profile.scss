@@ -1,0 +1,27 @@
+.profileContainer {
+  //   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  //   background-color: rgb(201, 193, 193);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 1px solid rgb(255, 238, 0);
+  border-radius: 25px;
+  height: 500px;
+  justify-content: center;
+  width: 800px;
+  margin-left: 290px;
+  margin-bottom: 200px;
+  .userProfileName {
+    padding-top: 10px;
+  }
+  .profileListLabel {
+    width: 190px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    padding-top: 5px;
+    margin-left: 40px;
+    text-align: left;
+
+    // background-color: aqua;
+  }
+  .pl {
+    font-weight: bold;
+  }
+}

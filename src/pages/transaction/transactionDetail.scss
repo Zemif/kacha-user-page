@@ -1,0 +1,25 @@
+.displayDetailContainer {
+  background-color: rgb(253, 252, 253);
+  padding-left: 150px;
+  height: auto;
+  width: auto;
+  padding-top: 20px;
+
+  padding-bottom: 20px;
+  .commonContainer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 55px;
+    margin-right: 55px;
+    .listContianer {
+      display: flex;
+      flex-direction: row;
+      font-size: 17px;
+      padding-top: 15px;
+      label {
+        margin-right: auto;
+        font-weight: bold;
+      }
+    }
+  }
+}
